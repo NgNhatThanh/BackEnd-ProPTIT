@@ -1,0 +1,17 @@
+<html xmlns:th="https://www.thymeleaf.org/">
+
+<head>
+    <title>Introduction</title>
+</head>
+
+<body>
+
+    <h1> Giới thiệu bản thân: </h1>
+
+    <p th:text="'Họ tên: ' + ${user.fullName}"></p>
+
+    <p th:text="'Tuổi: ' + ${user.age}"></p>
+
+    <p th:text="'Email: ' + ${user.email}"></p>
+
+</body>
